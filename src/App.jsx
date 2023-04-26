@@ -1,5 +1,5 @@
 import Main from "../components/Main/Main"
-import SideBar from "../components/Sidebar/Sidebar"
+import SideBar from "../components/SideBar/SideBar"
 import { useState, useEffect } from "react"
 import "./App.css"
 
