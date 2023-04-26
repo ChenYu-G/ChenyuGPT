@@ -17,25 +17,32 @@ aside {
 	justify-content: left;
 	align-items: center;
 	gap: 6px;
-	font-size: 4rem;
 }
 
 .cnv-history {
+	width: 100%;
 	padding: 0 1rem 0 1rem;
 	flex: 1;
 	margin: 0.25rem 0 1rem 0;
+	align-self: flex-start;
 }
+
 .cnv-history li {
+	border-radius: 0.25rem;
+	height: 2rem;
+	font-size: 1rem;
+	line-height: 0rem;
+	font-weight: 500;
 	list-style-type: none;
 	cursor: pointer;
-	font-size: 1rem;
-	margin: 0.75rem;
+	padding: 1.25rem;
+	margin-bottom: 0.25rem;
 	transition: 0.2s;
-	line-height: 1.25rem;
 }
 
 .cnv-history li:hover {
 	color: rgb(255, 255, 255);
+	background-color: rgb(73, 78, 105);
 }
 
 nav {

@@ -36,12 +36,17 @@ const Main = ({
 
 	return (
 		<main>
-			{!currentTitle && <h1>ChenyuGPT</h1>}
+			{!currentTitle && (
+				<div>
+					<h1>ChenyuGPT</h1>
+					<h2>Simple ChatGPT Clone using React.js and OpenAI API.</h2>
+				</div>
+			)}
 			<ul className='feed'>
 				{currentChat.map((chatMessage, index) => (
 					<li key={index}>
-						<p>{chatMessage.role}</p>
-						<p>{chatMessage.content}</p>
+						<p className='role'>{chatMessage.role}: </p>
+						<p>{chatMessage.content} </p>
 					</li>
 				))}
 			</ul>
