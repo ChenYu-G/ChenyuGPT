@@ -1,0 +1,70 @@
+:root {
+	--dark-bg: rgb(52 56 76);
+	--light-bg: rgb(255 255 255);
+	--dark-font: rgb(209, 212, 227);
+	--light-font: black;
+}
+
+*,
+*::before,
+*::after {
+	box-sizing: border-box;
+}
+
+* {
+	margin: 0;
+}
+
+html,
+body {
+	height: 100%;
+}
+
+body {
+	line-height: 1.5;
+	-webkit-font-smoothing: antialiased;
+}
+
+img,
+picture,
+video,
+canvas,
+svg {
+	display: block;
+	max-width: 100%;
+}
+
+input,
+button,
+textarea,
+select {
+	font: inherit;
+}
+
+p,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+	overflow-wrap: break-word;
+}
+
+#root,
+#__next {
+	isolation: isolate;
+}
+
+button,
+link {
+	background-color: transparent;
+	text-decoration: none;
+	border: none;
+	cursor: pointer;
+}
+input {
+	border: none;
+	cursor: text;
+	outline: none;
+}

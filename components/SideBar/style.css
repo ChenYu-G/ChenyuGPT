@@ -1,0 +1,44 @@
+aside {
+	width: 15rem;
+	min-width: 15rem;
+	height: 100vh;
+}
+
+.sidebar {
+	display: flex;
+	height: 100vh;
+	flex-direction: column;
+	justify-content: space-between;
+	align-items: center;
+}
+
+.new-chat {
+	display: flex;
+	justify-content: left;
+	align-items: center;
+	gap: 6px;
+	font-size: 4rem;
+}
+
+.cnv-history {
+	padding: 0 1rem 0 1rem;
+	flex: 1;
+	margin: 0.25rem 0 1rem 0;
+}
+.cnv-history li {
+	list-style-type: none;
+	cursor: pointer;
+	font-size: 1rem;
+	margin: 0.75rem;
+	transition: 0.2s;
+	line-height: 1.25rem;
+}
+
+.cnv-history li:hover {
+	color: rgb(255, 255, 255);
+}
+
+nav {
+	padding: 0.25rem;
+	margin: 0.175rem;
+}

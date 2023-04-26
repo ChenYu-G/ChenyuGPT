@@ -1,0 +1,42 @@
+.App {
+	display: flex;
+	flex-direction: row-reverse;
+	justify-content: space-between;
+}
+
+.dark {
+	background-color: var(--dark-bg);
+	color: var(--dark-font);
+}
+
+.light {
+	background-color: var(--light-bg);
+	color: var(--light-font);
+}
+
+.dark-btn {
+	border: none;
+	text-decoration: none;
+	padding: 1.25rem;
+	margin: 0.875rem;
+	border-radius: 0.25rem;
+	background-color: var(--dark-bg);
+	color: var(--light-color);
+	cursor: pointer;
+	width: 90%;
+	height: 2rem;
+	transition: 0.2s;
+	font-size: 1rem;
+	line-height: 2rem;
+	font-weight: 600;
+}
+
+.dark-btn:hover {
+	background-color: rgb(73, 78, 105);
+	color: rgb(255, 255, 255);
+}
+
+.divider {
+	border-top: 0.0625rem solid rgb(120, 126, 159);
+	width: 80%;
+}
